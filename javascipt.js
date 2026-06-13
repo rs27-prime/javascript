@@ -9,3 +9,5 @@ prompt("Enter your name") //used for taking input from the user
 alert("Hello World") //used for showing an alert message to the user
 
 
+let age = prompt("Enter your age") //used for taking input from the user
+age = parseInt(age) //used for converting a string to an integer
