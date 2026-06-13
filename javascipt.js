@@ -1,13 +1,40 @@
 
+// basic loop 
+for(a=0;a<=10;a++){
+    console.log(a)
+}
 
-let a = 45 // let used for declaring a variable that can be reassigned
-const b = 67 // const used for declaring a variable that cannot be reassigned
-var c = 89 // var used for declaring a variable that can be reassigned and has function scope
+// for in loop
+let list = {
+    "name" : "rushikesh",
+    "age" : 34,
+    "contact" : 3452343413 
+}
+for (let b in list){
+    console.log(list[b])
+}
 
-console.log(a) //used for printing the value of a variable
-prompt("Enter your name") //used for taking input from the user
-alert("Hello World") //used for showing an alert message to the user
+// for of loop
+for (let c of "rushikesh"){
+    console.log(c)
+}
+
+// while loop 
+let d = prompt("enter number")
+d = Number.parseInt(d)
+let e = 0
+while(e<d){
+    e++
+    console.log(e)
+}
 
 
-let age = prompt("Enter your age") //used for taking input from the user
-age = parseInt(age) //used for converting a string to an integer
+// do while loop
+let f = prompt("enter number");
+f = Number.parseInt(f);
+let g = 0;
+
+do{
+  console.log(g);
+  g++;
+} while (f < g);
