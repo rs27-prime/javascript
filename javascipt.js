@@ -1,6 +1,9 @@
 // Operators 
 let a = 56
-let b = 34
+let b = 4
+
+console.log("a is " + a);
+console.log("b is " + b);
 
 console.log("a + b = " + (a + b)); // addition
 console.log("a - b = " + (a - b)); // subtraction
