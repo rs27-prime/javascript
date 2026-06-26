@@ -1,11 +1,27 @@
+function add(a,b){
+    return a + b;
+}
 
+function average(a,b){
+    return (a + b) / 2;
+}
 
-let a = 45 // let used for declaring a variable that can be reassigned
-const b = 67 // const used for declaring a variable that cannot be reassigned
-var c = 89 // var used for declaring a variable that can be reassigned and has function scope
+function multiplication(a,b){
+    return (a * b) / 2;
+}
 
-console.log(a) //used for printing the value of a variable
-prompt("Enter your name") //used for taking input from the user
-alert("Hello World") //used for showing an alert message to the user
+const sub = (a,b) =>{ 
+     return a - b;
+     }
 
+     const greet = () =>{
+        console.log("Good morning");
+     }
+let a  = parseInt(prompt("Enter first number: "));
+let b  = parseInt(prompt("Enter second number: "));  
 
+console.log("The sum of " + a + " and " + b + " is: " + add(a,b));
+console.log("The average of " + a + " and " + b + " is: " + average(a,b));
+console.log("The multiplication of " + a + " and " + b + " is: " + multiplication(a,b));
+console.log("The substraction of " + a + " and " + b + " is: " + sub(a,b));
+greet();
