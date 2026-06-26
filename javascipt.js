@@ -1,3 +1,4 @@
+// Those are the variable we used in javascript
 let a = 34
 var b = 30
 const c = 45
