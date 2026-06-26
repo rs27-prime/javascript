@@ -1,27 +1,22 @@
-function add(a,b){
-    return a + b;
-}
+let a = "Hrushikesh"
+let b = 'Valvi'
+boy1 = "rushi"
+boy2 = "devil"
+fruit = "bana\"nna"  // escape character
 
-function average(a,b){
-    return (a + b) / 2;
-}
+console.log(a)
+console.log(a.length)  // length of a string
+console.log(a[0])  // first character of a string
+console.log(a[1])  // second character of a string
+console.log(`${boy1} and ${boy2} are same person`)  // string interpolation
+console.log(fruit)  // banana
+console.log(a.toUpperCase()) 
+console.log(a.toLowerCase())    
+console.log(a.slice(1, 6))   // last index is not included
+console.log(a.slice(1))   // last index is not included
+console.log(a.replace("Hrushikesh", "White Devil"))   // replace a string
+console.log(a.concat("is known as ", boy2, " ok"))   // concatenate two strings
 
-function multiplication(a,b){
-    return (a * b) / 2;
-}
-
-const sub = (a,b) =>{ 
-     return a - b;
-     }
-
-     const greet = () =>{
-        console.log("Good morning");
-     }
-let a  = parseInt(prompt("Enter first number: "));
-let b  = parseInt(prompt("Enter second number: "));  
-
-console.log("The sum of " + a + " and " + b + " is: " + add(a,b));
-console.log("The average of " + a + " and " + b + " is: " + average(a,b));
-console.log("The multiplication of " + a + " and " + b + " is: " + multiplication(a,b));
-console.log("The substraction of " + a + " and " + b + " is: " + sub(a,b));
-greet();
+let space = "   Hrushikesh Valvi   "
+console.log(space)
+console.log(space.trim())   // remove white spaces from both ends
