@@ -1,17 +1,24 @@
-let arr = [2,3,4,5,6]
-console.log(arr);
+console.log("show message in console");
+console.error("this show error");
+console.assert(5>6) // check condition only if true
+console.warn("this is the warning")
+console.info("this is important message");
+ 
+ let obj = {a:2,b:3,c:4,d:5}
+ console.table(obj)
 
-// create new array 
-let a = arr.map((value, index)=>{
-    return value +1, index
-})
-console.log(a)
+ console.time("a") // while checking time runtime
+ console.timeEnd("a")
 
-//filter and create new array
-let b = arr.filter((a)=>{
-    return a<=5
-})
-console.log(b);
+let a = prompt("enter the number : ", "27")
+alert("your script is working")
 
-
-// reduce used for addition 
+document.write(a)
+let write = confirm("do you want me to write")
+if(write){
+document.write(a)    
+}
+else{
+    document.write("please allowed me to write");
+    
+}
