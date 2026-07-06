@@ -22,6 +22,7 @@
 // document.body.firstChild.nodeValue   
 // document.body.firstChild.data   
 // document.body.firstChild.textContent
+
 // hidden for hide    
 // data.innerHTML   
 // data.outerHTML
