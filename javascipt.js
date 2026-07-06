@@ -26,3 +26,5 @@
 // hidden for hide    
 // data.innerHTML   
 // data.outerHTML
+
+// git document methods 
