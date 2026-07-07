@@ -171,3 +171,4 @@
 
 // console.log(`my name is ${name} and sirname is ${sirname} `);
 
+document.body.style.color.background = "green"
