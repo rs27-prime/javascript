@@ -171,4 +171,43 @@
 
 // console.log(`my name is ${name} and sirname is ${sirname} `);
 
-document.body.style.color.background = "green"
+// document.body.style.background = "green"
+
+// location.href = "https://www.google.com"
+
+// accessing nodes in div 
+// first node
+// last node
+// NodeList
+
+// let newCheck = document.getElementsByTagName("p")[1]
+
+
+// append 
+// prepend
+// before 
+// after
+
+// beoforestart
+// after start 
+// beforeend 
+// after end
+
+
+// create new element 
+// assign to inner html
+// // append in anything
+
+// let divOuter = document.querySelector(".positionCheck")
+
+// let checking = document.createElement("Div")
+// checking.innerHTML = "this is new element that i create"
+// divOuter.prepend(checking)
+// divOuter.append(checking)
+// divOuter.before(checking)
+// divOuter.after(checking)
+
+// divOuter.insertAdjacentHTML("beforebegin", "this is before Begin line")
+// divOuter.insertAdjacentHTML("afterbegin", "this is afterbegin line")
+// divOuter.insertAdjacentHTML("beforeend", "this is beforeend line")
+// divOuter.insertAdjacentHTML("afterend", "this is afterend line")
