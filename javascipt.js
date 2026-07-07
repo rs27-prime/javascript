@@ -136,6 +136,38 @@
 
 
 
+// let arr = [1,2,3,45,5,6,7]
+// let newarr = arr.map((value) =>{
+//     return value *2 ;
+// })
+// console.log(newarr)
+
+// let newValue = arr.filter((value)=>{
+//     return value < 3
+// }) 
+
+// console.log(newValue);
 
 
+// string operation 
  
+// let a = "this is string"
+// let name ='Rushikesh' 
+// let sirname ='valvi'
+
+// console.log(a);
+// console.log(name[0]);
+// console.log(name[1]);
+// console.log(name[2]);
+// console.log(name[3]);
+// console.log(name[4]);
+// console.log(name[5]);
+// console.log(name[6]);
+// console.log(name[7]);
+// console.log(name[8]);
+
+// let mix = name.concat(" this is his his sirname ",sirname)
+// console.log(mix);
+
+// console.log(`my name is ${name} and sirname is ${sirname} `);
+
